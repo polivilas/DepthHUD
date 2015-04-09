@@ -1,0 +1,11 @@
+{
+	"title"		:	"DepthHUD Inline",
+	"type"		:	"effects",
+	"tags"		:	[ "fun", "realism" ],
+	"ignore"	:
+	[
+		"*.psd",
+		"*.vcproj",
+		"*.svn*"
+	]
+}
