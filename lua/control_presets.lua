@@ -18,10 +18,9 @@ function PANEL:Init()
 	self.DropDown = vgui.Create( "DComboBox", self )
 	self.DropDown.OnSelect = function( dropdown, index, value, data ) self:OnSelect( index, value, data ) end
 	self.DropDown:SetText( "Presets" )
-	--self.DropDown:SetEditable( false )
 	
 	self.Button = vgui.Create( "DButton", self )
-	--self.Button:SetType( "right" )
+	self.Button:SetText( ">" )
 	self.Button.DoClick = function() self:OpenPresetEditor() end
 	
 	self:SetTall( 20 )
